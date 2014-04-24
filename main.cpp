@@ -36,7 +36,9 @@
 //#include "First Missing Positive.cpp"
 //#include "Trapping Rain Water.cpp"
 //#include "Count and Say.cpp"
-#include "Multiply Strings.cpp"
+//#include "Multiply Strings.cpp"
+//#include "N-Queens.cpp"
+#include "Jump Game.cpp"
 
 int main(int argc, char** argv)
 {
