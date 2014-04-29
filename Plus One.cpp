@@ -13,8 +13,8 @@ public:
 			digits[i] = carry % 10;
 			carry /= 10;
 		}
-
-		res.push_back(carry);
+		if(carry > 0)
+			res.push_back(carry);
 		for(int i = 0; i < nSize - 1; i++)
 			res.push_back(digits[i]);
 		return res;
